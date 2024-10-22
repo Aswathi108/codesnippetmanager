@@ -32,4 +32,14 @@ To insert a saved snippet:
 1. Type your keyword and press `Ctrl+Space`.
 2. Select the snippet from the autocomplete suggestions.
 
+## Project Structure
+
+```scss
+my-snippet-manager/
+├── .vscode/
+├── src/
+│   └── extension.ts  (or extension.js)
+├── package.json
+└── README.md
+
 code --install-extension codesnippetmanagerex

@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 
+
 let snippetLibrary: {[key: string]: string} = {};
 
 export function activate(context: vscode.ExtensionContext) {
